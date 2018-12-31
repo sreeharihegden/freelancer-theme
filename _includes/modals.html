@@ -18,7 +18,37 @@
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
-                            
+                            <ul class="list-inline item-details">
+                                {% if post.employer %}
+                                    <li>Employer:
+                                        <strong><a href="{{ post.link }}" target="_blank">{{ post.employer }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+								{% if post.school %}
+                                    <li>School:
+                                        <strong><a href="{{ post.link }}" target="_blank">{{ post.school }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                {% if post.project-startdate %}
+                                    <li>Dates:
+                                        <strong>{{ post.project-startdate }} - {{ post.project-enddate }}
+                                        </strong>
+                                    </li>
+                                {% endif %}
+								{% if post.project-title %}
+                                    <li>Project Title:
+                                        <strong><a href="{{ post.project-link }}" target="_blank">{{ post.project-title }}</a>
+                                        </strong>
+                                    </li>
+                                {% elseif post.title %}
+                                    <li>Job Title:
+                                        <strong>{{ post.title }}
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                            </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
