@@ -4,9 +4,11 @@ modal-id: 1
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
-project-date: May 2016
-client: The MathWorks, Natick, MA
-category: Quality Engineer
+project-startdate: May 2016
+project-enddate: Ongoing
+employer: The MathWorks, Natick, MA
+link: https://www.mathworks.com/
+title: Quality Engineer
 description: Use this area of the page to describe your project. 
 
 ---
