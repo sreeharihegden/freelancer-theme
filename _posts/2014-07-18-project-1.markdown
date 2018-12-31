@@ -1,0 +1,20 @@
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: cabin.png
+alt: image-alt
+project-startdate: May 2016
+project-enddate: Ongoing
+employer: The MathWorks, Natick, MA
+link: https://www.mathworks.com/
+title: Quality Engineer
+description: Use this area of the page to describe your project. 
+<ul>
+  <li>Identify bugs and verify bug fixes for the core MATLAB Toolbox functions</li>
+  <li>Develop Automated Test Suites based on MATLAB Unit Testing Framework for MATLAB Datastores and Tall Arrays</li>
+  <li>Perform hands-on testing of Big Data and MATLAB Toolbox functions across Mac, Linux and Windows platforms</li>
+  <li>Assist improving performance of Big Data functions by developing Performance Test Suites</li>
+</ul>
+
+---

@@ -21,20 +21,18 @@
                             <ul class="list-inline item-details">
                                 {% if post.employer %}
                                     <li>Employer:
-                                        <strong><a href=""{{ post.link }}"">{{ post.employer }}</a>
+                                        <strong><a href="{{ post.link }}">{{ post.employer }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.project-startdate %}
                                     <li>Dates:
-                                        <strong>{{ post.project-startdate }}
-                                        </strong> - 
-                                        <strong>{{ post.project-enddate }}
+                                        <strong>{{ post.project-startdate }} - {{ post.project-enddate }}
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.title %}
-                                    <li>Service:
+                                    <li>Job Title:
                                         <strong>{{ post.title }}
                                         </strong>
                                     </li>
