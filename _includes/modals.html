@@ -43,6 +43,12 @@
                                         </strong>
                                     </li>                                
                                 {% endif %}
+								{% if ~post.project-title %}
+                                    <li>Job Title:
+                                        <strong>{{ post.title }}
+                                        </strong>
+                                    </li>                             
+                                {% endif %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
