@@ -11,7 +11,7 @@ project-enddate: May 2016
 school: University of Texas at Arlington, Arlington, TX
 link: https://www.uta.edu/uta/
 title: Academic Project
-project-screenshotlink: /files/ThesiScreenshot.png
+project-screenshotlink: /files/ThesisScreenshot.png
 description: As part of Master’s Thesis, developed MediQoC (Medicare Quality of Care), a data driven web portal, which grants access to data-driven information about hospitals, and quality of care indicators for Medicare patients, their caregivers and the healthcare insurance policy designers. Statistical module of the portal built using Python, Pandas, NumPy and SciPy models the correlation between length of stay and discharge status attributes in each hospital for the given disease. Ranking results are visualized as bar charts via MediQoC-viz, the visualization module of the portal using Python and Bokeh. Using Google Geocoding API provided hospital location, distance and driving duration in map.
 
 ---
