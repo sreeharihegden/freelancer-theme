@@ -43,9 +43,9 @@
                                         </strong>
                                     </li>                                
                                 {% endif %}
-								{% if not post.project-title %}
+								{% if post.title %}
 									<li>Job Title:
-										<strong>blah
+										<strong>{{ post.title }}
 										</strong>
 									</li> 																
                                 {% endif %}
