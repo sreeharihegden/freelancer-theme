@@ -43,11 +43,13 @@
                                         </strong>
                                     </li>                                
                                 {% endif %}
-								{% if !post.project-title %}
-                                    <li>Job Title:
-                                        <strong>{{ post.title }}
-                                        </strong>
-                                    </li>                             
+								{% if post.title %}
+									{% if not post.project-title %}
+										<li>Job Title:
+											<strong>{{ post.title }}
+											</strong>
+										</li> 
+									{% endif %}									
                                 {% endif %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
