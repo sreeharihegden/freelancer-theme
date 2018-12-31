@@ -25,13 +25,24 @@
                                         </strong>
                                     </li>
                                 {% endif %}
+								{% if post.school %}
+                                    <li>School:
+                                        <strong><a href="{{ post.link }}" target="_blank">{{ post.school }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
                                 {% if post.project-startdate %}
                                     <li>Dates:
                                         <strong>{{ post.project-startdate }} - {{ post.project-enddate }}
                                         </strong>
                                     </li>
                                 {% endif %}
-                                {% if post.title %}
+								{% if post.project-title  %}
+                                    <li>Project Title:
+                                        <strong><a href="{{ post.project-link }}" target="_blank">{{ post.project-title }}</a>
+                                        </strong>
+                                    </li>
+                                {% elseif post.title %}
                                     <li>Job Title:
                                         <strong>{{ post.title }}
                                         </strong>

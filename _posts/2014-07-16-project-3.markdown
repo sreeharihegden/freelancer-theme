@@ -1,12 +1,16 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-16
+date: 
 img: circus.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+project-title: A Data Driven, Hospital Quality of Care Portal for the Patient Community
+project-link: https://dl.acm.org/citation.cfm?id=2910715
+project-startdate: Feb. 2015
+project-enddate: May 2016
+school: University of Texas at Arlington, Arlington, TX
+link: https://www.uta.edu/uta/
+title: Academic Project
+description: As part of Master’s Thesis, developed MediQoC (Medicare Quality of Care), a data driven web portal, which grants access to data-driven information about hospitals, and quality of care indicators for Medicare patients, their caregivers and the healthcare insurance policy designers. Statistical module of the portal built using Python, Pandas, NumPy and SciPy models the correlation between length of stay and discharge status attributes in each hospital for the given disease. Ranking results are visualized as bar charts via MediQoC-viz, the visualization module of the portal using Python and Bokeh. Using Google Geocoding API provided hospital location, distance and driving duration in map.
 
 ---
