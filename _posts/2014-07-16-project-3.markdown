@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-15
+date: 2014-07-16
 img: circus.png
 alt: image-alt
 project-title: A Data Driven, Hospital Quality of Care Portal for the Patient Community
