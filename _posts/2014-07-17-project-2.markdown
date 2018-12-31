@@ -9,7 +9,7 @@ project-enddate: July 2014
 employer: Accenture Services Private Limited, Bangalore, India
 link: https://www.accenture.com/in-en/accenture-services-private-limited
 title: Software Engineering Analyst
-project-title:
+project-title: 
 description: As a developer, I was primarly responsible for developing A2A, B2B, SOA integrations and RESTful web services in webMethods, a Java-based enterprise integration platform. I also participated in code reviews and unit test execution reviews, performed Integration Testing using HPQC and thus took part in all phases of SDLC. In addition, I handled Source Control Management and version control using Microsoft Visual SourceSafe and SVN. Trained new hires in the team on webMethods and Source Control practices in the project.
 
 ---

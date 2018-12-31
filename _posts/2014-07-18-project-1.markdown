@@ -9,7 +9,7 @@ project-enddate: Ongoing
 employer: The MathWorks, Natick, MA
 link: https://www.mathworks.com/
 title: Quality Engineer
-project-title:
+project-title: 
 description: As a quality engineer, I have been identifying bugs and verifying bug fixes for the core MATLAB Toolbox functions. I also develop Automated Test Suites based on MATLAB Unit Testing Framework for MATLAB Datastores and Tall Arrays. I perform hands-on testing of Big Data and MATLAB Toolbox functions across Mac, Linux and Windows platforms. In addition, I assist improving performance of Big Data functions by developing Performance Test Suites.
 
 ---
